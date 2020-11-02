@@ -5,9 +5,9 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
+  <meta name="description" content="Lounge Bar from Aversa.">
 
-  <meta name="author" content="cristianmarint">
+  <meta name="author" content="Beso Cafè">
   <meta name="generator" content="Hugo 0.73.0" />
 
   <!-- plugins -->
@@ -22,6 +22,8 @@
   
   <link rel="stylesheet" href="https://luigibarbato.github.io/besocafe.github.io/plugins/custom/clean-footer.css">
   
+  <link rel="stylesheet" href="https://luigibarbato.github.io/besocafe.github.io/plugins/animate/animate.min.css">
+  
 
   <!-- Main Stylesheet -->
   
@@ -34,7 +36,7 @@
   
   
   <meta property="og:title" content="Beso Cafè" />
-<meta property="og:description" content="This is meta description" />
+<meta property="og:description" content="Lounge Bar from Aversa." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://luigibarbato.github.io/besocafe.github.io/" />
 <meta property="og:updated_time" content="2020-04-18T10:07:21+06:00" />
@@ -42,7 +44,14 @@
   
   
   
-</head><body><!-- navigation -->
+</head><body>
+	
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
 
 <nav class="navbar navbar-light navbar-expand-md navigation-clean-button mt-5">
   <div class="container">
@@ -55,19 +64,15 @@
           <ul class="nav navbar-nav mr-auto mx-auto">
               
                 <li class="nav-item">
-                  <a class="nav-link" href="https://luigibarbato.github.io/besocafe.github.io/Prodotti" style="font-weight: bold;font-size: 20px;font-style: normal;">Prodotti</a>
+                  <a class="nav-link" href="#menu" style="font-weight: bold;font-size: 20px;font-style: normal;">Menu</a>
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="https://luigibarbato.github.io/besocafe.github.io/Chi%20Siamo" style="font-weight: bold;font-size: 20px;font-style: normal;">Chi Siamo</a>
+                  <a class="nav-link" href="#gallery" style="font-weight: bold;font-size: 20px;font-style: normal;">Gallery</a>
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="https://luigibarbato.github.io/besocafe.github.io/Contattaci" style="font-weight: bold;font-size: 20px;font-style: normal;">Contattaci</a>
-                </li>
-              
-                <li class="nav-item">
-                  <a class="nav-link" href="https://luigibarbato.github.io/besocafe.github.io/blog" style="font-weight: bold;font-size: 20px;font-style: normal;">blog</a>
+                  <a class="nav-link" href="#contattaci" style="font-weight: bold;font-size: 20px;font-style: normal;">Contattaci</a>
                 </li>
               
           </ul>
@@ -75,7 +80,7 @@
           
           
             <span class="actions">
-              <a href="https://luigibarbato.github.io/besocafe.github.io/contact"  style="font-weight: bold; background-color: #25d366; color: white;" class="btn pulse"><i class="fab fa-whatsapp"></i>
+              <a href="contact"  style="font-weight: bold; background-color: #25d366; color: white;" class="btn pulse"><i class="fab fa-whatsapp"></i>
                 Whatsapp</a>
             </span>
           
@@ -87,9 +92,10 @@
 <!-- /navigation -->
 
 
-<section class="section">
+
+<section class="section" id="menu">
     <div class="jumbotron jumbotron-fluid bg-white">
-        <div class="container">
+        <div class="container  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
           <h1 class="display-1 text-capitalize text-center">I nostri prodotti</h1>
           <p class="lead text-center">Assapora i nostri prodotti, freschi e di qualità!</p>
         </div>
@@ -97,26 +103,15 @@
 	</div>
 
 
-</section>
 
 
 
 
 
 <div class="mt-5">
-    <div class="container vh-70 ">
+    <div class="container  vh-70  rounded-lg">
         <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col">
-                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
-                        src="images/products/caff%c3%a8.jpg" title="Realizziamo sempre, per i nostri clienti, un caffè gustoso e aromatico.">
-                      <p>Realizziamo sempre, per i nostri clienti, un caffè gustoso e aromatico.</p>
-                       
-                      </div>
-                </div>
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="row">
                     <div class="col pt-5 pb-5 text-center ">
                         <h1 class="pt-5 " style="font-weight: bold;">Caffè</h1>
@@ -124,12 +119,21 @@
                       </div>
                 </div>
             </div>
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="col">
+                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
+                              src="images/products/caff%c3%a8.jpg" title="Realizziamo sempre, per i nostri clienti, un caffè gustoso e aromatico.">
+                            <p class="">Realizziamo sempre, per i nostri clienti, un caffè gustoso e aromatico.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+</section>
 
-
-
+ 
 
 
 
@@ -141,7 +145,41 @@
 <div class="mt-5">
     <div class="container  vh-70  rounded-lg">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="col pt-5 pb-5 text-center ">
+                        <h1 class="pt-5 " style="font-weight: bold;">Croissant</h1>
+                            <a href="" class="btn btn-outline-primary btn-lg " type="button" style="font-weight: bold;">€ 100.00</a>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="col">
+                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
+                              src="images/products/croissant.jpeg" title="L’unica crema che fa bene al corpo ridonandogli slancio e vitalità è quella che sta dentro al cornetto appena sfornato.">
+                            <p class="">L’unica crema che fa bene al corpo ridonandogli slancio e vitalità è quella che sta dentro al cornetto appena sfornato.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+ 
+
+
+
+
+
+
+
+
+<div class="mt-5">
+    <div class="container  vh-70  rounded-lg">
+        <div class="row">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="row">
                     <div class="col pt-5 pb-5 text-center ">
                         <h1 class="pt-5 " style="font-weight: bold;">Drink</h1>
@@ -149,7 +187,7 @@
                       </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="row">
                     <div class="col">
                         <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
@@ -161,39 +199,12 @@
         </div>
     </div>
 </div>
+</section>
+
+ 
 
 
 
-
-
-
-
-
-
-<div class="mt-5">
-    <div class="container vh-70 ">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col">
-                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
-                        src="images/products/pizza.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
-                       
-                      </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col pt-5 pb-5 text-center ">
-                        <h1 class="pt-5 " style="font-weight: bold;">Pizza</h1>
-                            <a href="" class="btn btn-outline-primary btn-lg " type="button" style="font-weight: bold;">€ 45.00</a>
-                      </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -202,7 +213,41 @@
 <div class="mt-5">
     <div class="container  vh-70  rounded-lg">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="col pt-5 pb-5 text-center ">
+                        <h1 class="pt-5 " style="font-weight: bold;">Pizza</h1>
+                            <a href="" class="btn btn-outline-primary btn-lg " type="button" style="font-weight: bold;">€ 45.00</a>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="col">
+                        <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
+                              src="images/products/pizza.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;">
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&amp;&amp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+ 
+
+
+
+
+
+
+
+
+<div class="mt-5">
+    <div class="container  vh-70  rounded-lg">
+        <div class="row">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="row">
                     <div class="col pt-5 pb-5 text-center ">
                         <h1 class="pt-5 " style="font-weight: bold;">Spremuta</h1>
@@ -210,7 +255,7 @@
                       </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                 <div class="row">
                     <div class="col">
                         <img data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" class="img-fluid rounded-lg"
@@ -222,6 +267,9 @@
         </div>
     </div>
 </div>
+</section>
+
+ 
 
 
 
@@ -231,246 +279,132 @@
 
 
 
-  <section class="section pb-2">
-	<div class="container text-left text-capitalize">
-	  <h1 class="display-3" style="font-weight: bold;">molto altro ancora!</h1>
-	  
-	</div>
-	<div class="container">
-	<div class="row text-center text-lg-left">
-		
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
 
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/1.jpeg" alt="">
+  <section class="section pb-2" id="gallery">
+	<div class="jumbotron jumbotron-fluid bg-white text-center">
+		<div class="container">
+		  <h1 class="display-2 text-capitalize">molto altro ancora!</h1>
+		  <p class="lead">Il nostro lavoro lo curiamo con tanto ❤️</p>
+		</div>
+	  </div> 
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+				<div class="gallery-slider">
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/2.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/1.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/1.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/3.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/2.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/2.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/4.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/3.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/3.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/5.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/4.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/4.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/6.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/5.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/5.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/7.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/6.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/6.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/8.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/7.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/7.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/9.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/8.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/8.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/10.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/9.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/9.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/11.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/10.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/10.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/12.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/11.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/11.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/13.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/12.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/12.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/14.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/13.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/13.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/15.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/14.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/14.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/16.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/15.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/15.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/17.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/16.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/16.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/18.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/17.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/17.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/19.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/18.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/18.jpeg" alt=""></a>
 				  
-
-				</a>
-		  </div>
-		  
-		<div class="col-lg-3 col-md-4 col-6 ">
-			<a href="#" class="d-block mb-4 w-100 h-100 ">
-
-				  <img class="img-fluid bg-white rounded shadow-lg " src="images/gallery/20.jpeg" alt="">
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/19.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/19.jpeg" alt=""></a>
 				  
-
-				</a>
+				  <a href="https://luigibarbato.github.io/besocafe.github.io/images/gallery/20.jpeg" class="venobox" data-gallery="sliderGallery">
+					<img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/gallery/20.jpeg" alt=""></a>
+				  
+				</div>
+			  </div>
+			</div>
 		  </div>
-		  
-	</div>
-
-	  </div>
+		</div>
+	  </section>
 
 
 
 
-
-
-
-<section class="section pb-2">
-	<div class="container text-center text-capitalize">
-	  <h1 class="display-1" style="font-weight: bold;">i nostri partners</h1>
-	  
-	</div>
-
-
-
-  <section class="section pb-2">
-    <div class="container text-left text-capitalize">
-      <h1 class="display-3" style="font-weight: bold;"></h1>
-      
-    </div>
-  <section id="slider">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-            <div class="gallery-slider">
-              
-              <a href="" class="venobox" data-gall="sliderGallery">
-                <img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/partners/acquaviva.png" alt=""></a>
-              
-              <a href="" class="venobox" data-gall="sliderGallery">
-                <img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/partners/heineken.png" alt=""></a>
-              
-              <a href="" class="venobox" data-gall="sliderGallery">
-                <img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/partners/ichnusa.png" alt=""></a>
-              
-              <a href="" class="venobox" data-gall="sliderGallery">
-                <img class="img-fluid center-block mx-auto" src="https://luigibarbato.github.io/besocafe.github.io/images/partners/cocacola.png" alt=""></a>
-              
-            </div>
-          </div>
-        </div>
+  <section class="section pb-2" id="partners">
+    <div class="jumbotron jumbotron-fluid bg-white text-center">
+      <div class="container">
+        <h1 class="display-1 text-capitalize">I Nostri partners</h1>
+        <p class="lead">Scegliamo solo qualità!</p>
       </div>
+      </div> 
+  <div class="container">
+    <div class="row text-center text-lg-left">
+      
+      <div class="col-lg-3 col-md-4 col-6 ">
+        <a href="#" class="d-block mb-4 w-100 h-100 ">
+            <img class="img-fluid rounded  " src="images/partners/acquaviva.png" alt="Acquaviva">
+          </a>
+        </div>
+        
+      <div class="col-lg-3 col-md-4 col-6 ">
+        <a href="#" class="d-block mb-4 w-100 h-100 ">
+            <img class="img-fluid rounded  " src="images/partners/heineken.png" alt="Heineken">
+          </a>
+        </div>
+        
+      <div class="col-lg-3 col-md-4 col-6 ">
+        <a href="#" class="d-block mb-4 w-100 h-100 ">
+            <img class="img-fluid rounded  " src="images/partners/ichnusa.png" alt="Ichnusa">
+          </a>
+        </div>
+        
+      <div class="col-lg-3 col-md-4 col-6 ">
+        <a href="#" class="d-block mb-4 w-100 h-100 ">
+            <img class="img-fluid rounded  " src="images/partners/cocacola.png" alt="Coca-cola">
+          </a>
+        </div>
+        
     </div>
-  </section>
-    
-  
+      </div>
+      </section>
+      
 
-<div class="footer-clean" style="background-color:rgba(230, 37, 0,0.9);">
+	
+
+<div class="footer-clean" style="background-color:rgba(230, 37, 0,0.9);" id="contattaci">
   <footer>
       <div class="container">
           <div class="row">
@@ -502,7 +436,7 @@
                       
                       <li class="list-inline-item"><a href="#"><i class="ti-facebook"  style="color: #1a0400;"></i></a></li>
                       
-                      <li class="list-inline-item"><a href="https://twitter.com/cristianmarint"><i class="ti-twitter-alt"  style="color: #1a0400;"></i></a></li>
+                      <li class="list-inline-item"><a href=""><i class="ti-twitter-alt"  style="color: #1a0400;"></i></a></li>
                       
                       <li class="list-inline-item"><a href="#"><i class="ti-skype"  style="color: #1a0400;"></i></a></li>
                       
@@ -533,6 +467,8 @@
 <script src="https://luigibarbato.github.io/besocafe.github.io/plugins/font-awesome/js/all.min.js"></script>
 
 <script src="https://luigibarbato.github.io/besocafe.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://luigibarbato.github.io/besocafe.github.io/plugins/wow/wow.min.js"></script>
 
 
 <!-- Main Script -->
